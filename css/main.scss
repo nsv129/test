@@ -1,0 +1,27 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//breakpoints
+
+$tablets: 768px;
+$phones: 480px;
+
+//colors
+$blue: #61C4D9;
+$darkGreen: #0b4d3c;
+
+@import "_media";
+
+//z-indexes
+$z-fixed-menu: 100;
+
+//normalize
+@import "_normalize";
+
+//setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;1,400&display=swap');
+@import "_layout";
+
+// components
+@import "components/_hero";
+@import "components/_header";
